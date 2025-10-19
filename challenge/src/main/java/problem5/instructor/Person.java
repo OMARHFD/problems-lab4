@@ -1,4 +1,4 @@
-package student;
+package problem5.instructor;
 
 public class Person {
     private static int nextId = 1;
@@ -17,7 +17,7 @@ public class Person {
     }
     public Person()
     {}
-//Getters
+    //Getters
     public static int getNextId(){return  nextId;}
     public String getFirstName() { return this.firstName;};
     public String getSecondName() { return this.secondName;};
